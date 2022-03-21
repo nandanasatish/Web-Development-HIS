@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Submit request</title>
+  </head>
+  <body>
+  <!--  <form action="mailto:supriyada@gmail.com" method="post" enctype="text/plain"> -->
+      <form action="mailto:supriyada@gmail.com?subject=Service%20request%20alert!" method="post" enctype="text/plain" class="form">
+        <fieldset>
+
+
+        <div class="form">
+          <label for="name">Your name:<small>*</small> </label>
+          <input type="text" name="Name" id="name" required>
+        </div>
+        <br>
+        <div class="form">
+          <label for="email"> Your email address: </label>
+          <input type="email" name="Email" id="email">
+        </div>
+        <br>
+        <div class="form">
+          <label for="phone">Your phone number:<small>*</small> </label>
+          <input type="tel" id="phone" name="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+          <label for="phone"><small>(Format: 123-456-7890)</small></label>
+        </div>
+        <br>
+        <div class="form">
+          <label for="">Your Message:<small>*</small> </label><br>
+          <textarea name="Message" rows="8" cols="80"></textarea><br>
+        </div>
+        <br>
+        <div class="form">
+          <input type="submit" value="Submit">
+          <input type="reset" name="reset" value="Reset">
+          <input type="button" onclick="location.href='index.html';" value="Back" />
+        </div>
+        <br>
+
+        <label for="requiredFeilds"><small>*Indicates required feilds</small></label>
+
+        </fieldset>
+      </form>
+
+    <!--</form> -->
+  </body>
+</html>
