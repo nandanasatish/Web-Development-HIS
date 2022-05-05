@@ -1,16 +1,10 @@
 
 .menu{
   text-align: center;
-
 }
 .title{
-  padding-top: 35px;
+  padding-top: 60px;
 
-}
-.logo{
-  float: left;
-  margin-top: 10px;
-  margin-right: 10px;
 }
 .hidden-ss{
   display: none !important;
@@ -54,23 +48,22 @@
 }
 @media (max-width: 575.98px) {
   .title {
+    text-align: center;
     font-size: 25px;
-    padding-top: 15px;
-
+    padding-top: 45px;
+    margin-left: 20px;
   }
   .hidden-ss{
     display: block !important;
-  }
-  .logo{
-    margin-top: 15px;
   }
   .menu{
     text-align: center;
   }
   .about{
-    margin: 10px auto 20px 50px;
-    line-height: normal;
-    /* font-size: 20px; */
+    /* margin: 10px auto 20px 50px; */
+    margin: 3% auto;
+    line-height: 2.5rem;
+    text-align: center;
   }
   .apptButton{
     margin-left: 100px;
