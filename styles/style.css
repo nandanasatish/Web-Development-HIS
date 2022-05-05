@@ -145,12 +145,6 @@ h3 {
 
 }
 
-.titleContainer {
-  /* padding: 0 10px 25px 25px; */
-  /* width: 150%; */
-  /* height:60%; */
-}
-
 .titleImg {
   width: 100%;
   height: 400px;
@@ -388,7 +382,9 @@ a:active {
   .servicesOfferedImg1{
     width: 80%;
   }
-
+  #title{
+    padding-bottom: 3%;
+  }
 
   .navbar-brand {
     font-size: 20px;
@@ -425,7 +421,8 @@ a:active {
   .logo {
     height: 150px;
     width: 150px;
-    margin-top: 25px;
+
+    margin:25px 20px 10px 5px;
   }
 
   #btnScrollToTop {

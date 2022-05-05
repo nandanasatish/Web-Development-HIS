@@ -53,6 +53,9 @@
     padding-top: 45px;
     margin-left: 20px;
   }
+  #title{
+    
+  }
   .hidden-ss{
     display: block !important;
   }
@@ -66,7 +69,8 @@
     text-align: center;
   }
   .apptButton{
-    margin-left: 100px;
+    margin-left: 20%;
+
     margin-bottom: 30px;
   }
 
