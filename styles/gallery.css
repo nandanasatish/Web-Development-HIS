@@ -1,0 +1,172 @@
+.gallery{
+  padding-top: 40px;
+
+}
+
+.slideLink{
+  text-decoration: underline;
+  float: right;
+
+}
+.gallImg{
+  padding-bottom: 10px;
+
+}
+body {
+  font-family: Arial;
+  margin: 0;
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  background-color: #FFF6EA;
+  position: relative;
+
+  align-content: center;
+  /* rgba(255, 255, 255, 0.5); */
+  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+/* .caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+} */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+/* .column {
+  float: left;
+  width: 25%;
+} */
+
+/* Add a transparency effect for thumnbail images */
+.galleryImg {
+  cursor: pointer;
+  opacity: 0.8;
+  width:100%;
+  height:150px;
+}
+
+.active,
+.galleryImg:hover {
+  opacity: 1;
+}
+/* The expanding image container */
+.expContainer {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: green;
+  /* <!-- height:400px;
+  width:70%; --> */
+
+}
+
+/* Expanding image text */
+#imgDescr {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: black;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: red;
+  font-size: 35px;
+  cursor: pointer;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#fullImage{
+  margin: 50px auto;
+  display:block;
+  width:85%;
+  height:400px;
+}
+/* #eImag{
+  <!-- display:none; -->
+} */
+@media (max-width: 575.98px) {
+col-sm-2{
+  width:25%;
+
+}
+.galleryImg{
+  height:80px;
+}
+.galleryText{
+  padding-top: 10px;
+  text-align: left;
+  font-size: 20px;
+}
+}
