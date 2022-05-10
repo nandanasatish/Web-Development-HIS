@@ -1,16 +1,18 @@
 
 .menu{
-  text-align: center;
+  text-align:center ;
 }
 .title{
-  padding-top: 60px;
+  font-size: 45px;
+  padding-top:0;
+  text-align: center;
 
 }
 .hidden-ss{
-  display: none !important;
+  display: block !important;
 }
 #aboutSection{
-  background-color: #EBD8C3;
+    background-color: #E4E4E4;
 }
 .about{
   margin: 90px 0 30px 50px;
@@ -22,7 +24,7 @@
   margin-top: 0;
   height: 50px;
   margin-left: 50px;
-  background: #A97155;
+  background: #444444;
   -webkit-border-radius: 9;
   -moz-border-radius: 9;
   border-radius: 5px;
@@ -30,34 +32,31 @@
   -moz-box-shadow: 0 5px 6px #666666;
   box-shadow: 0 5px 6px #666666;
   /* font-family: Georgia; */
-  color: #000000;
+  color: white;
   /* padding: 0 5px 0 30px; */
   text-decoration: none;
 }
-#services {
-  background-color: #FFF6EA;
+
+/* #services {
+  background-color: #E4E4E4;
 }
 #gallery{
-  background-color: #EBD8C3;
-}
-#features {
-  background-color: #FFF6EA;
-}
+  background-color: #E4E4E4;
+} */
+
 #testimonials {
-  background-color: #EBD8C3;
+  background-color: #E4E4E4;
 }
 @media (max-width: 575.98px) {
   .title {
-    text-align: center;
+
     font-size: 25px;
     padding-top: 45px;
     margin-left: 20px;
   }
-  #title{
-    
-  }
+
   .hidden-ss{
-    display: block !important;
+    display: none !important;
   }
   .menu{
     text-align: center;

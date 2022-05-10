@@ -38,15 +38,21 @@
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark ">
 
-          <div class="col-lg-7">
-            <a class="navbar-brand" href="index.html">
+          <div class="col-lg-7 col-md-7">
+            <a class="navbar-brand " href="index.html">
               <img class="d-inline-block logo" src="images/logo.png"  alt="logo" longdesc="index.html">
-              <p class="title text-dark font-weight-bold">Custom Woodworks <br class="hidden-ss"> and <br class="hidden-ss"> Home Improvements</p>
+              <!-- <p class="title text-light font-weight-bold">
+                Custom Woodworks <br class="d-sm-inline d-md-inline d-lg-none d-xl-none">
+                and <br class="d-sm-inline d-md-inline d-lg-none d-xl-none">
+                Home Improvements
+              </p> -->
+              <p class="title text-light font-weight-bold">Custom Woodworks <br> & <br> Home Improvements</p>
+
               <!-- <span class="title text-dark font-weight-bold">Custom Woodworks</span><br>
               <span class="title text-dark font-weight-bold">Home Improvements</span> -->
             </a>
           </div>
-          <div class="col-lg-5 menu">
+          <div class="col-lg-5 col-md-5 menu">
             <p>
               <a target="_blank" href="https://www.facebook.com/">
                 <img class="mediaImg" src="https://img.icons8.com/color/48/000000/facebook-new.png" />
@@ -79,19 +85,19 @@
               <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item">
-                  <a class="nav-link text-dark font-weight-bold" href="index.html">Home</a>
+                  <a class="nav-link text-light font-weight-bold" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-dark font-weight-bold" href="#services">Services</a>
+                  <a class="nav-link text-light font-weight-bold" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-dark font-weight-bold" href="#gallery">Gallery</a>
+                  <a class="nav-link text-light font-weight-bold" href="gallery.html">Gallery</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-dark font-weight-bold" href="#features">About</a>
+                  <a class="nav-link text-light font-weight-bold" href="#summarize">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-dark font-weight-bold" href="contact.html">Contact</a>
+                  <a class="nav-link text-light font-weight-bold" href="contact.html">Contact</a>
                 </li>
               </ul>
             </div>
@@ -101,7 +107,7 @@
     </div>
   </section>
   <section id="aboutSection">
-    <div class="fluid-container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-4">
           <p >
@@ -180,120 +186,189 @@
       </div>
     </div>
   </section>
+  <section >
+  <div class="container servicesContainer">
+    <a href="gallery.html">
+    <h5>Kitchen</h5>
+    </a>
+    <div class="clearfix">
+    <img src="images/titleImage1.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+      <div class="card servicesCard">
+        <div id="workPreview">
+          <div class="card-body">
+            <p>
+              A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+            </p>
 
-  <section id="services">
-    <div class="container servicesContainer">
-      <h3>We provide</h3>
-      <div class="row">
+            <p>
+              As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no
+              tangible information at. It simply takes up space and should not really be read.
+            </p>
 
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/titleImage1.jpg" class="img-thumbnail rounded-start servicesOfferedImg1" alt="...">
-                <!-- <img src="http://drive.google.com/uc?export=view&id=1UbBVtvHk4U8yXqznucy-Bm8e0e4vxsT3" class="img-thumbnail rounded-start servicesOfferedImg1" alt="..."> -->
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Renovations</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                </div>
-              </div>
-            </div>
+            <p>
+              And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <a href="gallery.html">
+    <h5 class="card-title">Bathroom</h5>
+    </a>
+    <div class="clearfix">
+    <img src="images/titleImage1.jpg" class="col-md-6 float-md-start mb-3 ms-md-3" alt="...">
+      <div class="card servicesCard">
+        <div id="workPreview">
+          <div class="card-body">
+            <p>
+              A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+            </p>
+
+            <p>
+              As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no
+              tangible information at. It simply takes up space and should not really be read.
+            </p>
+
+            <p>
+              And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <a href="gallery.html">
+    <h5 class="card-title">Custom Woodworks</h5>
+    </a>
+    <div class="clearfix">
+    <img src="images/titleImage1.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+      <div class="card servicesCard">
+        <div id="workPreview">
+          <div class="card-body">
+            <p>
+              A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+            </p>
+
+            <p>
+              As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no
+              tangible information at. It simply takes up space and should not really be read.
+            </p>
+
+            <p>
+              And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <a href="gallery.html">
+    <h5 class="card-title">Commercial</h5>
+    </a>
+
+    <div class="clearfix">
+    <img src="images/titleImage1.jpg" class="col-md-6 float-md-start mb-3 ms-md-3" alt="...">
+      <div class="card servicesCard">
+        <div id="workPreview">
+          <div class="card-body">
+            <p>
+              A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+            </p>
+
+            <p>
+              As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no
+              tangible information at. It simply takes up space and should not really be read.
+            </p>
+
+            <p>
+              And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+<!--
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <img src="images/titleImage1.jpg" class="img-thumbnail rounded-start servicesOfferedImg1" alt="...">
+      </div>
+      <div class="col-lg-6 col-md-6">
+
+
+        <div class="card servicesCard">
+          <div id="workPreview">
+          <div class="card-header">
+            <h5 class="card-title">Kitchen</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
           </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/titleImage1.jpg" class="img-thumbnail rounded-start servicesOfferedImg1" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Kitchens</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
+        </div>
+      </div>
+    </div>
+    <div class="row">
 
-
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/titleImage1.jpg" class="img-thumbnail rounded-start servicesOfferedImg1" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Bathrooms</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                </div>
-              </div>
-            </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="card servicesCard">
+          <div id="workPreview">
+          <div class="card-header">
+            <h5 class="card-title">Bathroom</h5>
           </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/titleImage1.jpg" class="img-thumbnail rounded-start servicesOfferedImg1" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body text-dark">
-                  <h5 class="card-title">Painting</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                </div>
-              </div>
-            </div>
+          <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/titleImage1.jpg" class="img-thumbnail rounded-start servicesOfferedImg1" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Closets & Cabinetry</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/titleImage1.jpg" class="img-thumbnail rounded-start servicesOfferedImg1" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Residential & Commercial</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
+      <div class="col-lg-6 col-md-6">
+        <img src="images/titleImage1.jpg" class="img-thumbnail rounded-start servicesOfferedImg2" alt="...">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <img src="images/titleImage1.jpg" class="img-thumbnail rounded-start servicesOfferedImg1" alt="...">
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="card servicesCard">
+          <div id="workPreview">
+          <div class="card-header">
+            <h5 class="card-title">Custom Woodworks</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
 
-    </div>
-    </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="card servicesCard">
+          <div id="workPreview">
+          <div class="card-header">
+            <h5 class="card-title">Commercial</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <img src="images/titleImage1.jpg" class="img-thumbnail rounded-start servicesOfferedImg2" alt="...">
+      </div>
+    </div> -->
+  </div>
   </section>
-  <hr>
 
-  <section id="gallery">
+
+  <!-- <section id="gallery">
     <div class="container galleryContainer">
       <h3>Recent works</h3>
       <div class="row galleryRow">
@@ -306,7 +381,7 @@
         <div class="col-lg-4 col-md-4 col-sm-12">
           <img src="images/titleImage1.jpg" class="img-thumbnail" alt="Project">
         </div>
-      </div>
+      </div> -->
       <!-- <hr> -->
       <!-- <div class="row galleryRow">
           <div class="col-lg-4 col-md-4 col-sm-12">
@@ -319,61 +394,150 @@
             <img src="images/titleImage1.jpg" class="img-thumbnail" alt="Project">
           </div>
         </div> -->
-      <a href="gallery.html" class="clickMore">Click for more <i class="fa-solid fa-angles-right" aria-hidden="true"></i> </a>
-    </div>
-  </section>
-  <hr>
-  <section id="features">
-    <div class="container featuresContainer">
 
-      <div class="row">
-        <div class="col-lg-4 col-md-12 col-sm-12 featurBox">
-
-          <i class="fa-solid fa-circle-check fa-4x icon"></i>
-          <h3>Certified</h3>
-          <p>We are certified by...</p>
-        </div>
-
-        <div class="col-lg-4 col-md-12 col-sm-12 featurBox">
-          <i class="fa-solid fa-bullseye fa-4x icon"></i>
-          <h3>Flexible</h3>
-          <p>Ready to work</p>
-        </div>
-
-        <div class="col-lg-4 col-md-12 col-sm-12 featurBox">
-          <i class="fa-solid fa-heart fa-4x icon"></i>
-          <h3>Satisfied Work</h3>
-          <p>You will love the outcome</p>
-        </div>
-      </div>
-
-    </div>
-
-  </section>
-  <hr>
+    <!-- </div>
+  </section> -->
 
   <!-- Testimonials -->
   <section id="testimonials">
-    <div class="container testimonialContainer">
+    <div class="container-fluid testimonialContainer">
 
-      <h3 class="custSays">Here is what customers got to say</h3>
+      <h3>What Customers Say About Us</h3>
       <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <h2>At tempor commodo ullamcorper a. Nulla aliquet porttitor lacus luctus accumsan.
+            <div class="row gy-3">
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="card h-100">
+                  <div class="card-header">
+
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                  </div>
+                  <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="card-text">Very skilled, professional, trustworthy..All you would expect from a contractor. Fernando did several projects for us; kitchen / bathroom remodeling, woodwork. He is very easy to work with. He listens to the customer and also proposes great ideas. Top quality work from start to finish. Highly recommended.</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">Onseb</cite></footer>
+                  </blockquote>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="card h-100">
+                  <div class="card-header">
+
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                  </div>
+                  <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="card-text">Fernando is excellent! He completed a lot of work for me in an investment property ad well as my own home. Highly recommended.</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">Joe Guarneri</cite></footer>
+                  </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="card h-100">
+                  <div class="card-header">
+
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                  </div>
+                  <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="card-text">Fernando did an outstanding job last year with renovations of our house.
+                      He is professional, reliable, thorough, and a pure joy to deal with.
+                      He was very patient and went out of his way to make sure that we were happy with the outcome.
+
+
+                      He followed up several times after he completed the project to make sure that we were happy with the results.
+                      He was always on time and never missed a day. We subsequently recommended Fernando to our friends, and everyone has been very happy with his work.
+                  </p>
+
+                    <footer class="blockquote-footer"><cite title="Source Title">Stella Lyubarsky</cite></footer>
+                  </blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <h2>At tempor commodo ullamcorper a. Nulla aliquet porttitor lacus luctus accumsan.
               Aliquam etiam erat velit scelerisque in dictum non consectetur a.</h2>
-            <!-- <img class="test_img" src="images/dog-img.jpg" alt="dog-profile"> -->
-            <em>Priya, NJ</em>
+
+            <em>Priya, NJ</em> -->
           </div>
           <div class="carousel-item">
-            <h2>At tempor commodo ullamcorper a. Nulla aliquet porttitor lacus luctus accumsan.
-              Aliquam etiam erat velit scelerisque in dictum non consectetur a.</h2>
-            <!-- <img class="test_img" src="images/lady-img.jpg" alt="lady-profile"> -->
-            <em>Priya3, NJ</em>
+            <div class="row gy-3">
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="card h-100">
+                  <div class="card-header">
+
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                  </div>
+                  <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="card-text">Fernando did a phenomenal job on our kitchen remodel, went from a mess to a showplace. His design ideas went well with ours, his skills and talent are obvious and excellent, I cannot recommend this company strongly enough.</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">David Shaw</cite></footer>
+                  </blockquote>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="card h-100">
+                  <div class="card-header">
+
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                  </div>
+                  <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="card-text">Fernando has done plenty of work for me. I got him involved early while redesigning my kitchen and he made some suggestions that turned out great. High quality and timely work. He also made some custom pieces for me which turned out better then I envisioned. Highly recommended. Couldn't be happier.</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">Brian Gibson</cite></footer>
+                  </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="card h-100">
+                  <div class="card-header">
+
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                    <i class='fas fa-star' style='color:#fbcc05'></i>
+                  </div>
+                  <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p class="card-text">Fernando is a great professional, he comes up with intelligent solutions and doesn’t cut corners. I’ve trusted him with different projects, and was happy every time. In addition to excellent craftsmanship, he always keeps his commitments. I will not hesitate to hire him in the future.</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">It's Me</cite></footer>
+                  </blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>
-        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+          <!-- <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
@@ -382,25 +546,36 @@
         <span class="visually-hidden">Next</span>
       </button> -->
       </div>
+      <a target="_blank" href="https://www.google.com/search?q=sava21&source=hp&ei=F6R1YtOYE47DqtsPj7y9-AM&iflsig=AJiK0e8AAAAAYnWyJ9ZX7NnM1nDgP8Cud-uM0sPi-DJ_&ved=0ahUKEwiTgNP4-Mv3AhWOoWoFHQ9eDz8Q4dUDCAg&uact=5&oq=sava21&gs_lcp=Cgdnd3Mtd2l6EAM6BQgAEJECOgUILhCRAjoLCAAQgAQQsQMQgwE6DgguEIAEELEDEMcBENEDOgUIABCABDoLCC4QgAQQxwEQowI6CAgAEIAEELEDOgUILhCABDoLCC4QxwEQrwEQkQI6CwguEIAEEMcBENEDOhEILhCABBCxAxCDARDHARCjAjoICC4QsQMQgwE6DgguELEDEIMBEMcBEKMCOggILhCABBCxAzoRCC4QgAQQsQMQxwEQ0QMQ1AI6CwguEIAEELEDEIMBOg4ILhCABBCxAxCDARDUAjoLCC4QgAQQsQMQ1AI6BwgAEIAEEAo6BAgAEApQAFjRFWCqGGgAcAB4AIABZogBvAOSAQM0LjKYAQCgAQE&sclient=gws-wiz#lrd=0x89c3b9a875a851c7:0xd14e69d6a5dbc1af,1,,," class="clickMore">Leave a Review <i class="fa-solid fa-angles-right" aria-hidden="true"></i> </a>
+
     </div>
   </section>
   <section id="summarize">
     <div class="container-fluid">
       <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-12">
+            <img class="d-inline-block logoFooter" src="images/logo.png"  alt="logo" longdesc="index.html">
 
-        <div class="col-lg-4 col-md-4 col-sm-4">
+          </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+
+
           <p class="font-weight-bold">About us</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p class="aboutFooter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Volutpat odio facilisis mauris sit amet massa. Adipiscing commodo elit at imperdiet.
 
             Facilisis sed odio morbi quis commodo odio aenean sed adipiscing.
             Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque. </p>
+
         </div>
 
 
-        <div class="col-lg-4 col-md-4 col-sm-4 ">
-          <p class="font-weight-bold">Working Hours</p>
-                <table cellspacing=20 style="max-width:100%">
+        <div class="col-lg-3 col-md-3 col-sm-12">
+          <div class="workHrs">
+
+
+            <p class="font-weight-bold">Working Hours</p>
+                <table class="center" cellspacing=20 style="max-width:100%">
 
                   <tr>
                     <td>Monday</td>
@@ -432,20 +607,24 @@
                   </tr>
                 </table>
         </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-4">
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <p class="font-weight-bold">Reach Us At </p>
           <p>
+            <a target="_blank" href="https://goo.gl/maps/CAiEoJf3VvirDaCt8">
             <img class="locate2" src="https://img.icons8.com/color/48/000000/place-marker--v1.png"/>
-            679, Bound Brook Rd, Middlesex, NJ - 08846
-          </p>
+            <span class="addressLink">679, Bound Brook Rd, Middlesex, NJ - 08846</span>
+          </a>
+        </p>
           <p>
             <img class="phone2" src="https://img.icons8.com/color/48/000000/phone.png"/>
             (201) 780-3724
           </p>
           <p>
+            <a href="contact.html">
             <img class="envelope2" src="https://img.icons8.com/color/48/000000/apple-mail.png"/>
-            fernando@sava21.com
+            <span class="emailLink">fernando@sava21.com</span>
+            </a>
           </p>
           <p>
             <a class="footer-link" href="https://www.facebook.com/">

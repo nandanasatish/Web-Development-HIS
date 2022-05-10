@@ -29,7 +29,7 @@ img {
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
-  background-color: #FFF6EA;
+  /* background-color: #FFF6EA; */
   position: relative;
 
   align-content: center;
